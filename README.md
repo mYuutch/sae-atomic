@@ -1,7 +1,7 @@
 # SAE WEB / MULTIMÉDIA
 ## Sujet : La bombe nucléaire
 #### Groupe composée de Bouchez Enzo et Florian Thoraval
- Le site est disponible via le lien suivant [sae-atomic.vercel.app][sae-atomic.vercel.app##]
+ Le site est disponible via le lien suivant sae.atomic.vercel.app[sae-atomic.vercel.app##]
 
  ## Technologies utilisées 
 
