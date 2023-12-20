@@ -28,6 +28,6 @@ Framer motion nous a été utile pour faire des animations d'apparition rapideme
 - Prise en main de locomotive :
   La prise en main de Locomotive a été relativement facile au début, mais nous avons rencontré de nompreux problèmes quand nous essayé d'utiliser des fonctions plus éloborées comme le pinning. De plus, Locomotive a quelques problèmes de compatibilités avec le rendering fait par Next.js ce qui est la source de warnings sur l'Hydration du site dans la console du navigateur, mais qui ne change rien à la fonctionnalité du site.
  - Séquence d'image liée au scroll :
-   La séquence d'image liée au scroll  a tendance  à "clignoter" au premier passage, ce malgrès un effort pour preload les images et les stocker dans le cache du navigateur. 
+   La séquence d'image liée au scroll  a tendance  à "clignoter" au premier passage, ce malgrès un effort pour preload les images et les stocker dans le cache du navigateur. De plus, l'animation fonctionne sans problème sur les navigateurs basés sur chrome
   
 
