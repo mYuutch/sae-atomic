@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -11,6 +12,13 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      fontFamily: {
+        'display-italic': ['InriaSerif-BoldItalic'],
+        'display': ['InriaSerif-Bold'],
+        'heading': ['InriaSans-Bold'],
+        'body' : ['InriaSans-Regular'],
+        'body-light' : ['InriaSans-Light'],
       },
     },
   },
