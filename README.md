@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SAE WEB / MULTIMÉDIA
+## Sujet : La bombe nucléaire
+#### Groupe composée de Bouchez Enzo et Florian Thoraval
+ Le site est disponible via le lien suivant [sae-atomic.vercel.app](https://www.sae-atomic.vercel.app)
 
-## Getting Started
+ ## Technologies utilisées 
 
-First, run the development server:
+ Site codé avec NextJS, les animations ont été réalisées à l'aide de 3 librairies :
+ - GSAP
+ - Framer Motion
+ - Locomotive Scroll
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Locomotive Scroll a été utilisée pour achever un effet de smooth scrolling et de parrallax sur les élements.
+Framer motion nous a été utile pour faire des animations d'apparition rapidement. Pour toutes les animations un peu plus élaborées ( Vidéo Séquencée, Avion ) nous avons utilisé GSAP
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Animations mises en avant sur le site
+ - Smooth - scrolling
+ - Parrallax (images, texte)
+ - Séquence d'image synchronisée avec le scroll
+ - Apparition des images ( changement de scale et d'opacité )
+ - Pinning
+ - Apparition de texte lettre par lettre
+ - Animations lancées au scroll (avion, bombe)
+ - Augmentation de scale au hover
+ - Barre de progression qui se rempli au fur et à mesure de la visite du site
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Difficultés rencontrées
+- Prise en main de locomotive :
+  La prise en main de Locomotive a été relativement facile au début, mais nous avons rencontré de nompreux problèmes quand nous essayé d'utiliser des fonctions plus éloborées comme le pinning. De plus, Locomotive a quelques problèmes de compatibilités avec le rendering fait par Next.js ce qui est la source de warnings sur l'Hydration du site dans la console du navigateur, mais qui ne change rien à la fonctionnalité du site.
+ - Séquence d'image liée au scroll :
+   La séquence d'image liée au scroll  a tendance  à "clignoter" au premier passage, ce malgrès un effort pour preload les images et les stocker dans le cache du navigateur. 
+  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
